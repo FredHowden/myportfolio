@@ -13,8 +13,6 @@ function HamburgerButton({ as: Tag = 'button', ...props }) {
 }
 
 
-
-
 export default function Header() {
     const [isHamburgerOpen, setisHamburgerOpen] = useState(false);
 
