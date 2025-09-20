@@ -27,15 +27,3 @@ body {
 }
 
 
-
-@layer components {
-    .header_nav {
-        @apply hidden flex-col inset-0 absolute bg-white;
-
-
-        @media (min-width: 640px) {
-            @apply !flex gap-4 flex-row inset-auto static;
-        }
-    }
-}
-

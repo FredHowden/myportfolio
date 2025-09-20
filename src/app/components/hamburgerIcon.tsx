@@ -11,9 +11,9 @@ export default function HamburgerIcon({ isHamburgerOpen }: HamburgerIconProps) {
     const bottomLine = isHamburgerOpen ? "bottom-[50%] -rotate-45 translate-y-1/2" : "bottom-1/8"
     return (
         <>
-            <div className={`${topLine} ${hamburgerLinesClass} `}></div>
-            <div className={`${middleLine} ${hamburgerLinesClass} `}></div>
-            <div className={`${bottomLine} ${hamburgerLinesClass} `}></div>
+            <div className={`${hamburgerLinesClass} ${topLine} `}></div>
+            <div className={`${hamburgerLinesClass} ${middleLine} `}></div>
+            <div className={`${hamburgerLinesClass} ${bottomLine} `}></div>
         </>
 
     );

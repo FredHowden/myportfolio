@@ -8,8 +8,8 @@ import banana from "@/app/img/banana.jpg";
 import HamburgerIcon from "./hamburgerIcon";
 
 
-function HamburgerButton({ as: Tag = 'button', ...props }) {
-  return <Tag {...props} />;
+function HamburgerButton({ ...props }) {
+    return <button {...props} />;
 }
 
 
@@ -21,25 +21,26 @@ export default function Header() {
     };
 
     return (
-        <header className="px-10">
-            <nav className="flex items-center justify-between">
-                <Image src={banana} alt="banana" className="max-w-40" />
-                <ul className={`header_nav ${isHamburgerOpen ? "flex" : "hidden"}`}>
-                    <li><a href="">home</a></li>
-                    <li><a href="">projects</a></li>
-                    <li><a href="">tech I use</a></li>
-                    <li><a href="">collaborators</a></li>
-                    <li><a href="">contact me</a></li>
-                    <li><a href="">CV</a></li>
-                </ul>
+        <header className="px-10 flex items-center">
+            <Image src={banana} alt="banana" className="max-w-30 min-w-20" />
 
-                <HamburgerButton
-                    onClick={toggleMenu}
-                    className="sm:hidden z-10 flex flex-col gap-1 cursor-pointer relative w-8 h-8"
-                    aria-label="Toggle menu">
-                    <HamburgerIcon isHamburgerOpen={isHamburgerOpen} />
-                </HamburgerButton>
+            <nav className="flex items-center sm:ml-auto">
+                <ul className={`flex max-sm:bg-blue-200/50 ${isHamburgerOpen ? "max-sm:top-0" : "max-sm:-top-full"} max-sm:transition-all max-sm:duration-500 max-ms:ease-in-out max-sm:left-0 max-sm:w-screen max-sm:h-screen max-sm:flex-col max-sm:absolute max-sm:pt-16 max-sm:text-3xl sm:gap-4`}>
+                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">home</a></li>
+                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">projects</a></li>
+                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">tech I use</a></li>
+                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">collaborators</a></li>
+                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">contact me</a></li>
+                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">CV</a></li>
+                </ul>
             </nav>
+            <HamburgerButton
+                onClick={toggleMenu}
+                className="max-sm:z-1 max-sm:flex max-sm:flex-col max-sm:gap-1 max-sm:cursor-pointer max-sm:relative max-sm:w-8 max-sm:h-8 max-sm:ml-auto sm:hidden"
+                aria-label="Toggle menu">
+                <HamburgerIcon isHamburgerOpen={isHamburgerOpen} />
+            </HamburgerButton>
+
         </header>
     );
 }
