@@ -11,7 +11,7 @@ export default function AboutMe() {
                 that beat the stock market.
                 I didn't, but since then I've succeeded in creating other projects, but currently
                 I am creating a browser extension that automatically replaces all images on a website with versions of the same images,
-                but with the text in each image translated into the user’s preferred language.
+                but with the text in each image translated into the user's preferred language.
             </div>
         </section>
     );

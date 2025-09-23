@@ -2,7 +2,6 @@
 
 import HeroSection from "@/components/hero_section";
 import AboutMe from "@/components/aboutme_section";
-import banana from "@/public/img/banana.jpg"
 import SiepieProjectImage from "@/public/img/siepie_project.png"
 import Image from "next/image";
 
