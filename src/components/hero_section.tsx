@@ -12,7 +12,7 @@ export default function HeroSection() {
                 Fred Howden.
             </div>
             <div className="max-sm:text-2xl max-sm:leading-none max-sm:mt-1 sm:mt-1 sm:text-2xl">
-                I am a fullstack developer in the Netherlands.
+                I&apos;m a fullstack developer in the Netherlands.
             </div>
             <p className="max-sm:mt-3 sm:max-w-[30rem]">
                 I started my first official programming project in 2021 and have since then become a student of Media College Amsterdam
