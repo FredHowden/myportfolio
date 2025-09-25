@@ -5,7 +5,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import HamburgerIcon from "@/components/icons/hamburgerIcon";
-import banana from "@/public/img/banana.jpg";
+import banana from "@/../public/img/banana.jpg";
 
 
 

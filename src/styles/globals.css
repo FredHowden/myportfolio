@@ -27,3 +27,8 @@ body {
 }
 
 
+@custom-variant xs {
+    @media (min-width: 440px) {
+        @slot;
+    }
+}

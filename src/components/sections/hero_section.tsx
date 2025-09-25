@@ -1,21 +1,23 @@
 import GithubIcon from "@/components/icons/githubIcon";
 import EmailIcon from "@/components/icons/emailIcon";
 import LinkedinIcon from "@/components/icons/linkedinIcon";
+// import hero_text from "@/public/text/english/hero.json";
+import { name_introduction, job_introduction, main_introduction } from "@/../public/text/english/hero.json";
 
 export default function HeroSection() {
     return (
         <section className="">
             <div>
-                hello my name is
+                {name_introduction}
             </div>
             <div className="max-sm:text-4xl max-sm:mt-0.5 sm:text-5xl">
                 Fred Howden.
             </div>
             <div className="max-sm:text-2xl max-sm:leading-none max-sm:mt-1 sm:mt-1 sm:text-2xl">
-                I&apos;m a fullstack developer in the Netherlands.
+                {job_introduction}
             </div>
-            <p className="max-sm:mt-3 sm:max-w-[30rem]">
-                I started my first official programming project in 2021 and have since then become a student of Media College Amsterdam
+            <p className="max-sm:mt-3 max-w-[30rem]">
+                {main_introduction}
             </p>
             <ul className="flex gap-4 max-sm:mt-4 sm:mt-2">
                 <li className="p-2 rounded-md"><a className="text-gray-800" href=""><EmailIcon /></a></li>
