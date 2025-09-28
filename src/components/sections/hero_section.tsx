@@ -2,7 +2,7 @@ import GithubIcon from "@/components/icons/githubIcon";
 import EmailIcon from "@/components/icons/emailIcon";
 import LinkedinIcon from "@/components/icons/linkedinIcon";
 
-import hero_text from "@/../public/text/english/hero.json";
+import hero_text from "@/../public/language/english/hero.json";
 const { name_introduction, job_introduction, main_introduction } = hero_text;
 
 export default function HeroSection() {

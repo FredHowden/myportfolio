@@ -1,0 +1,20 @@
+[
+    {
+        "id": "0",
+        "name": "Sweden project",
+        "description": "Collaborated with Kreativa Gymnasiet (Sweden) and Media College to design and develop a website promoting a student-created game.",
+        "images": {
+            "small_screen": "/img/siepie_project_phone.png",
+            "medium_screen": "/img/siepie_project.png"
+        }
+    },
+    {
+        "id": "1",
+        "name": "Sweden project",
+        "description": "Collaborated with Kreativa Gymnasiet (Sweden) and Media College to design and develop a website promoting a student-created game.",
+        "images": {
+            "small_screen": "/img/siepie_project_phone.png",
+            "medium_screen": "/img/siepie_project.png"
+        }
+    }
+]
