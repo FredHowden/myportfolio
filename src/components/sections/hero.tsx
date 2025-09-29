@@ -1,6 +1,5 @@
-import GithubIcon from "@/components/icons/githubIcon";
-import EmailIcon from "@/components/icons/emailIcon";
-import LinkedinIcon from "@/components/icons/linkedinIcon";
+
+import { GithubIcon, EmailIcon, LinkedinIcon} from "@/components/svgs/svg"
 
 import hero_text from "@/../public/language/english/hero.json";
 const { name_introduction, job_introduction, main_introduction } = hero_text;

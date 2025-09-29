@@ -10,8 +10,17 @@
     },
     {
         "id": "1",
-        "name": "Sweden project",
-        "description": "Collaborated with Kreativa Gymnasiet (Sweden) and Media College to design and develop a website promoting a student-created game.",
+        "name": "my portfolio",
+        "description": "this is my portfolio project which you are currently looking at",
+        "images": {
+            "small_screen": "/img/siepie_project_phone.png",
+            "medium_screen": "/img/siepie_project.png"
+        }
+    },
+        {
+        "id": "2",
+        "name": "NXT museum",
+        "description": "this was a competition to make a website for the NXT museum.",
         "images": {
             "small_screen": "/img/siepie_project_phone.png",
             "medium_screen": "/img/siepie_project.png"

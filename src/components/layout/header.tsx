@@ -21,7 +21,7 @@ export default function Header() {
 
 
     return (
-        <header className="px-10 flex items-center">
+        <header className="px-10 flex items-center fixed top-0 w-full bg-[#F8F8F8] opacity-95 z-1">
             <Image src={banana} alt="banana" className="max-w-30 min-w-20" />
 
             <nav className="flex items-center sm:ml-auto">

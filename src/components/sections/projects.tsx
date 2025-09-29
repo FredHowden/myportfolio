@@ -12,8 +12,8 @@ export default async function ProjectsSection() {
             <ul className="flex flex-wrap gap-14">
 
                 {projects.map((project) => (
-                    <li key={project.name} className="rounded-md shadow-md max-sm:p-2 max-sm:w-[100%] max-md:w-[80%] md:w-[45%] sm:p-3">
-                        <a href={project.id}>
+                    <li key={project.id} className="rounded-md shadow-md max-sm:p-2 max-sm:w-[100%] max-md:w-[80%] md:w-[45%] sm:p-3">
+                        <a href={`project_info/${project.id}`}>
                             <figure className="">
                                 <div className="relative aspect-[9/11] xs:aspect-video">
                                     <Image className="hidden xs:block object-contain" fill alt="" src={project.images.medium_screen} />
@@ -27,7 +27,6 @@ export default async function ProjectsSection() {
                         </a>
                     </li>
                 ))}
-
 
             </ul>
         </section>

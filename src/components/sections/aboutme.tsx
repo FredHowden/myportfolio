@@ -1,4 +1,4 @@
-export default function AboutMeAboutMeSection() {
+export default function AboutMeSection() {
     return (
 
         <section className="pt-40 max-w-[40rem] sm:ml-32 sm:mr-2 lg:ml-60">
