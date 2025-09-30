@@ -19,7 +19,7 @@ export default function HeroSection() {
             <p className="max-sm:mt-3 max-w-[30rem]">
                 {main_introduction}
             </p>
-            <ul className="flex gap-4 max-sm:mt-4 sm:mt-2">
+            <ul className="flex flex-wrap gap-4 max-sm:mt-4 sm:mt-2">
                 <li className="p-2 rounded-md"><a className="text-gray-800" href=""><EmailIcon /></a></li>
                 <li className="p-2 rounded-md"><a className="text-gray-800" href=""><GithubIcon /></a></li>
                 <li className="p-2 rounded-md"><a className="text-gray-800" href=""> <LinkedinIcon /> </a></li>

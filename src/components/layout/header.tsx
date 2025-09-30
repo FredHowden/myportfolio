@@ -36,7 +36,7 @@ export default function Header() {
             </nav>
             <HamburgerButton
                 onClick={toggleMenu}
-                className="max-sm:z-1 max-sm:flex max-sm:flex-col max-sm:gap-1 max-sm:cursor-pointer max-sm:relative max-sm:w-8 max-sm:h-8 max-sm:ml-auto sm:hidden"
+                className="max-sm:z-1 max-sm:flex max-sm:flex-col max-sm:gap-1 max-sm:cursor-pointer max-sm:relative max-sm:min-w-8 max-sm:min-h-8 max-sm:ml-auto sm:hidden"
                 aria-label="Toggle menu">
                 <HamburgerIcon isHamburgerOpen={isHamburgerOpen} />
             </HamburgerButton>
