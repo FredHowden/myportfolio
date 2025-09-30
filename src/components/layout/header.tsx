@@ -28,7 +28,7 @@ export default function Header() {
                     <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#aboutMe">About Me</Link></li>
                     <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#projects">Projects</Link></li>
                     <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#techIWorkWith">Tech</Link></li>
-                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">CV</Link></li>
+                    {/* <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">CV</Link></li> */}
                 </ul>
             </nav>
             <HamburgerButton
