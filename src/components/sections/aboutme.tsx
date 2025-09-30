@@ -1,9 +1,9 @@
 export default function AboutMeSection() {
     return (
 
-        <section className="pt-40 max-w-[40rem] sm:ml-32 sm:mr-2 lg:ml-60">
+        <section id="aboutMe" className="pt-40 max-w-[40rem] sm:ml-32 sm:mr-2 lg:ml-60">
             <h2 className="max-sm:text-3xl sm:text-3xl">About me</h2>
-            <div>
+            <div className="opacity-95">
                 I live in the Netherlands
                 I&apos;m a student at Media college Amsterdam.
                 I enjoy problem solving.

@@ -28,7 +28,7 @@ body {
 
 
 @custom-variant xs {
-    @media (min-width>= 27.6rem) {
+    @media (width>= 27.6rem) {
         @slot;
     }
 }

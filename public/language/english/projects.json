@@ -6,24 +6,31 @@
         "images": {
             "small_screen": "/img/siepie_project_phone.png",
             "medium_screen": "/img/siepie_project.png"
-        }
+        },
+        "website_link": "https://36563.hosts2.ma-cloud.nl/siepie/",
+        "github_link": "https://github.com/FredHowden/siepie"
+        
     },
     {
         "id": "1",
         "name": "my portfolio",
         "description": "this is my portfolio project which you are currently looking at",
         "images": {
-            "small_screen": "/img/siepie_project_phone.png",
-            "medium_screen": "/img/siepie_project.png"
-        }
+            "small_screen": "/img/myportfolio_phone.png",
+            "medium_screen": "/img/myportfolio.png"
+        },
+        "website_link": "http://fredhhowden.com/",
+        "github_link": "https://github.com/FredHowden/myportfolio"
     },
         {
         "id": "2",
         "name": "NXT museum",
         "description": "this was a competition to make a website for the NXT museum.",
         "images": {
-            "small_screen": "/img/siepie_project_phone.png",
-            "medium_screen": "/img/siepie_project.png"
-        }
+            "small_screen": "/img/nxt_museum_phone.png",
+            "medium_screen": "/img/nxt_museum.png"
+        },
+        "website_link": "https://36563.hosts2.ma-cloud.nl/nxt_museum/",
+        "github_link": "https://github.com/FredHowden/museum_opdracht"
     }
 ]

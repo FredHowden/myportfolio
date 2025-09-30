@@ -1,9 +1,8 @@
 "use client";
 
-import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import HamburgerIcon from "@/components/icons/hamburgerIcon";
-import banana from "@/../public/img/banana.jpg";
 
 
 
@@ -21,17 +20,15 @@ export default function Header() {
 
 
     return (
-        <header className="px-10 flex items-center fixed top-0 w-full bg-[#F8F8F8] opacity-95 z-1">
-            <Image src={banana} alt="banana" className="max-w-30 min-w-20" />
-
+        <header className="px-10 py-4 flex items-center fixed top-0 w-full bg-[#F9F9F9] sm:opacity-95 z-1">
+            <a href="http://fredhhowden.com/">Fred Howden</a>
             <nav className="flex items-center sm:ml-auto">
-                <ul className={`flex max-sm:bg-blue-200 ${isHamburgerOpen ? "max-sm:translate-y-0" : "max-sm:-translate-y-full"} max-sm:fixed max-sm:inset-0 max-sm:transition-all max-sm:duration-500 max-ms:ease-in-out max-sm:flex-col max-sm:pt-16 max-sm:text-3xl sm:gap-4`}>
-                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">home</a></li>
-                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">projects</a></li>
-                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">tech I use</a></li>
-                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">collaborators</a></li>
-                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">contact me</a></li>
-                    <li><a className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">CV</a></li>
+                <ul className={`flex max-sm:bg-gray-100 ${isHamburgerOpen ? "max-sm:translate-y-0" : "max-sm:-translate-y-full"} max-sm:fixed max-sm:inset-0 max-sm:transition-all max-sm:duration-500 max-ms:ease-in-out max-sm:flex-col max-sm:pt-16 max-sm:text-3xl sm:gap-4`}>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#home">Home</Link></li>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#aboutMe">About Me</Link></li>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#projects">Projects</Link></li>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#techIWorkWith">Tech</Link></li>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">CV</Link></li>
                 </ul>
             </nav>
             <HamburgerButton
