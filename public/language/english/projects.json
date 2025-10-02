@@ -8,8 +8,11 @@
             "medium_screen": "/img/siepie_project.png"
         },
         "website_link": "https://36563.hosts2.ma-cloud.nl/siepie/",
-        "github_link": "https://github.com/FredHowden/siepie"
-        
+        "github_link": "https://github.com/FredHowden/siepie",
+        "image_alt": {
+            "small_screen_alt": "Image of cat and human posing.",
+            "medium_screen": "Image of person and cat with a train in the background."
+        }
     },
     {
         "id": "1",
@@ -20,9 +23,13 @@
             "medium_screen": "/img/myportfolio.png"
         },
         "website_link": "http://fredhhowden.com/",
-        "github_link": "https://github.com/FredHowden/myportfolio"
+        "github_link": "https://github.com/FredHowden/myportfolio",
+        "image_alt": {
+            "small_screen_alt": "Image of the current website.",
+            "medium_screen": "Image of the current website."
+        }
     },
-        {
+    {
         "id": "2",
         "name": "NXT museum",
         "description": "This was a competition to make a website for the NXT museum with this being my result.",
@@ -31,6 +38,10 @@
             "medium_screen": "/img/nxt_museum.png"
         },
         "website_link": "https://36563.hosts2.ma-cloud.nl/nxt_museum/",
-        "github_link": "https://github.com/FredHowden/museum_opdracht"
+        "github_link": "https://github.com/FredHowden/museum_opdracht",
+        "image_alt": {
+            "small_screen_alt": "Image of the NXT museum.",
+            "medium_screen": "Image of the NXT musum."
+        }
     }
 ]

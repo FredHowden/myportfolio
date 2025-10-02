@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
-        <html lang="en">
+        <html lang="en" className='scroll-smooth'>
             <body className='flex flex-col items-center'>
                 <Header></Header>
                 {children}

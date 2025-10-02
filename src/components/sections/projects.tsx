@@ -16,8 +16,8 @@ export default async function ProjectsSection() {
                     <li key={project.id} className="flex flex-col rounded-md shadow-md max-sm:p-2 max-sm:w-[100%] max-md:w-[80%] md:w-[45%] sm:p-3 ">
                         <figure className="">
                         <div className="relative aspect-[9/11] xs:aspect-video">
-                            <Image className="hidden xs:block object-contain" fill alt="" src={project.images.medium_screen} />
-                            <Image className="object-contain xs:hidden outline-black-3" alt="" fill src={project.images.small_screen} />
+                            <Image className="hidden xs:block object-contain" fill alt={project.image_alt.medium_screen} src={project.images.medium_screen} />
+                            <Image className="object-contain xs:hidden outline-black-3" alt={project.image_alt.small_screen_alt} fill src={project.images.small_screen} />
                         </div>
                         <figcaption className="flex flex-col pt-3">
                             <h3 className="text-2xl">{project.name}</h3>
