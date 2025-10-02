@@ -17,12 +17,11 @@ export default async function ProjectsSection() {
                         <figure className="">
                         <div className="relative aspect-[9/11] xs:aspect-video">
                             <Image className="hidden xs:block object-contain" fill alt="" src={project.images.medium_screen} />
-                            <Image className="object-contain xs:hidden" alt="" fill src={project.images.small_screen} />
+                            <Image className="object-contain xs:hidden outline-black-3" alt="" fill src={project.images.small_screen} />
                         </div>
                         <figcaption className="flex flex-col pt-3">
                             <h3 className="text-2xl">{project.name}</h3>
                             <p className="opacity-90">{project.description}</p>
-
                         </figcaption>
 
                         </figure>
