@@ -9,7 +9,7 @@ import { GithubIcon, NewWindowIcon } from "../svgs/svg";
 export default async function ProjectsSection() {
     return (
         <section id="projects" className="pt-44">
-            <h2 className="text-3xl pb-3 m-2">projects</h2>
+            <h2 className="text-3xl pb-3 m-2">Projects</h2>
             <ul className="flex flex-wrap gap-14">
 
                 {projects.map((project) => (

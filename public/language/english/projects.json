@@ -13,8 +13,8 @@
     },
     {
         "id": "1",
-        "name": "my portfolio",
-        "description": "this is my portfolio project which you are currently looking at",
+        "name": "My portfolio",
+        "description": "This is my portfolio project which you are currently looking at.",
         "images": {
             "small_screen": "/img/myportfolio_phone.png",
             "medium_screen": "/img/myportfolio.png"
@@ -25,7 +25,7 @@
         {
         "id": "2",
         "name": "NXT museum",
-        "description": "this was a competition to make a website for the NXT museum.",
+        "description": "This was a competition to make a website for the NXT museum with this being my result.",
         "images": {
             "small_screen": "/img/nxt_museum_phone.png",
             "medium_screen": "/img/nxt_museum.png"
