@@ -30,7 +30,7 @@ export default function HeroSection() {
             </div>
 
             <div>
-                <img className="w-64 pt-10" src="/img/hero_image3.jpg" alt="" /> : ""
+                <img className="w-64 pt-10" src="/img/hero_image3.jpg" alt="" />
             </div>
 
         </section>
