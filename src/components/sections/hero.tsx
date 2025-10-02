@@ -1,4 +1,3 @@
-"use client"
 import Link from "next/link";
 
 import { GithubIcon, EmailIcon, LinkedinIcon } from "@/components/svgs/svg"
@@ -8,7 +7,7 @@ export default function HeroSection() {
 
 
     return (
-        <section id="home" className=" flex gap-44">
+        <section id="home" className="flex flex-col-reverse sm:flex-row sm:flex sm:justify-around">
             <div>
                 <div className="pt-30 opacity-80">
                     {name_introduction}
@@ -29,8 +28,8 @@ export default function HeroSection() {
                 </ul>
             </div>
 
-            <div>
-                <img className="w-64 pt-10" src="/img/hero_image3.jpg" alt="" />
+            <div className="">
+                <img className="w-full sm:w-64 mt-10 rounded-2xl" src="/img/hero_image3.jpg" alt="" />
             </div>
 
         </section>
