@@ -15,24 +15,3 @@ export default function HomePage() {
         </main>
     );
 }
-// "use client"
-// import { useState, useEffect } from "react";
-
-// export default function App() {
-//     const [count, setCount] = useState(0);
-
-//     useEffect(() => {
-//         const interval = setInterval(() => {
-//             setCount((prev) => prev + 1);
-//         }, 3000);
-
-//         return () => clearInterval(interval);
-//     }, []);
-
-//     return (
-//         <div className="p-4 text-center">
-//             <h1 className="text-2xl font-bold">Changing Every 5 Seconds</h1>
-//             <p className="mt-4 text-lg">Value: {count}</p>
-//         </div>
-//     );
-// }

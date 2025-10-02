@@ -4,20 +4,7 @@ import Link from "next/link";
 import { GithubIcon, EmailIcon, LinkedinIcon } from "@/components/svgs/svg"
 import hero_text from "@/../public/language/english/hero.json";
 const { name_introduction, job_introduction, main_introduction } = hero_text;
-import { useState, useEffect } from "react";
 export default function HeroSection() {
-
-    // const [count, setCount] = useState(0);
-
-    // const numberOfImages = 3
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setCount((prev) => prev + 1);
-    //     }, 3000);
-
-    //     return () => clearInterval(interval);
-    // }, []);
 
 
     return (
