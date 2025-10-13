@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import heroImage from "@/../public/img/hero_image3.jpg";
 
 import { GithubIcon, EmailIcon, LinkedinIcon } from "@/components/svgs/svg"
 import hero_text from "@/../public/language/english/hero.json";
@@ -28,8 +30,8 @@ export default function HeroSection() {
                 </ul>
             </div>
 
-            <div className="">
-                <img className="w-full sm:w-64 mt-10 rounded-2xl" src="/img/hero_image3.jpg" alt="Image of Fred" />
+            <div>
+                <Image className="w-full sm:w-64 mt-10 rounded-2xl" src={heroImage} alt="Image of Fred"/>
             </div>
 
         </section>
