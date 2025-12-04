@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { GithubIcon, EmailIcon, LinkedinIcon } from "@/components/svgs/svg"
+import Image from "next/image";
 import hero_text from "@/../public/language/english/hero.json";
 const { name_introduction, job_introduction, main_introduction } = hero_text;
 export default function HeroSection() {
@@ -29,7 +30,7 @@ export default function HeroSection() {
             </div>
 
             <div className="">
-                <img className="w-full sm:w-64 mt-10 rounded-2xl" src="/img/hero_image3.jpg" alt="Image of Fred" />
+                <Image className="w-full sm:w-64 mt-10 rounded-2xl" src="/img/hero_image3.jpg" alt="Image of Fred" />
             </div>
 
         </section>
