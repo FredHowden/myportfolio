@@ -1,6 +1,8 @@
 import { GithubIcon, HtmlIcon, CssIcon, ReactIcon, TailwindIcon, JavascriptIcon, TypescriptIcon, PythonIcon, PhpIcon, SqlIcon, NextjsIcon, ViteIcon, LinuxIcon, ScssIcon } from "@/components/svgs/svg"
 
 
+import techIworkWith from "@/../public/language/techIWorkWith.json";
+const { backend, infrastructure, frontend } = techIworkWith;
 
 export default function TechIWorkWith() {
     return (
@@ -11,7 +13,7 @@ export default function TechIWorkWith() {
 
 
                 <div className="shadow-sm p-4 rounded-md flex-1">
-                    <h3 className="text-2xl text-center">Backend</h3>
+                    <h3 className="text-2xl text-center">{backend}</h3>
                     <ul className="flex flex-wrap justify-around gap-8 xs:min-w-64 pt-4">
                         <li className="text-lg flex flex-col items-center"><PythonIcon /><p className="opacity-85">python</p></li>
                         <li className="text-lg flex flex-col items-center"><PhpIcon /><p className="opacity-85">php</p></li>
@@ -21,7 +23,7 @@ export default function TechIWorkWith() {
                 </div>
 
                 <div className="shadow-sm p-4 rounded-md flex-1">
-                    <h3 className="text-2xl text-center">Infrastructure</h3>
+                    <h3 className="text-2xl text-center">{infrastructure}</h3>
                     <ul className="flex flex-wrap justify-around gap-8 xs:min-w-64 pt-4">
                         <li className="text-lg flex flex-col items-center w-12"><GithubIcon /><p className="opacity-85">git</p></li>
                         <li className="text-lg flex flex-col items-center"><ViteIcon /><p className="opacity-85">vite</p></li>
@@ -30,7 +32,7 @@ export default function TechIWorkWith() {
                 </div>
 
                 <div className="shadow-sm p-4 rounded-md flex-1">
-                    <h3 className="text-2xl text-center">Frontend</h3>
+                    <h3 className="text-2xl text-center">{frontend}</h3>
                     <ul className="flex flex-wrap justify-around gap-8 xs:min-w-64 pt-4">
                         <li className="text-lg flex flex-col items-center"><HtmlIcon /><p className="opacity-85">html</p></li>
                         <li className="text-lg flex flex-col items-center"><ReactIcon /><p className="opacity-85">react</p></li>
