@@ -6,13 +6,13 @@ const { backend, infrastructure, frontend } = techIworkWith;
 
 export default function TechIWorkWith() {
     return (
-        <section id="techIWorkWith" className="px-5">
-            <h2 className="text-3xl mt-12">Tech I work with</h2>
+        <section id="techIWorkWith" className="px-5 mt-30">
+            <h2 className="text-4xl mt-12">Tech I work with</h2>
             <div className="flex flex-wrap gap-8 mt-10">
 
 
 
-                <div className="shadow-sm p-4 rounded-md flex-1">
+                <div className="shadow-sm p-4 rounded-md flex-1 dark:bg-[#141414]">
                     <h3 className="text-2xl text-center">{backend}</h3>
                     <ul className="flex flex-wrap justify-around gap-8 xs:min-w-64 pt-4">
                         <li className="text-lg flex flex-col items-center"><PythonIcon /><p className="opacity-85">python</p></li>
@@ -22,7 +22,7 @@ export default function TechIWorkWith() {
                     </ul>
                 </div>
 
-                <div className="shadow-sm p-4 rounded-md flex-1">
+                <div className="shadow-sm p-4 rounded-md flex-1 dark:bg-[#141414]">
                     <h3 className="text-2xl text-center">{infrastructure}</h3>
                     <ul className="flex flex-wrap justify-around gap-8 xs:min-w-64 pt-4">
                         <li className="text-lg flex flex-col items-center w-12"><GithubIcon /><p className="opacity-85">git</p></li>
@@ -31,7 +31,7 @@ export default function TechIWorkWith() {
                     </ul>
                 </div>
 
-                <div className="shadow-sm p-4 rounded-md flex-1">
+                <div className="shadow-sm p-4 rounded-md flex-1 dark:bg-[#141414]">
                     <h3 className="text-2xl text-center">{frontend}</h3>
                     <ul className="flex flex-wrap justify-around gap-8 xs:min-w-64 pt-4">
                         <li className="text-lg flex flex-col items-center"><HtmlIcon /><p className="opacity-85">html</p></li>

@@ -8,12 +8,12 @@ import { GithubIcon, NewWindowIcon } from "../svgs/svg";
 
 export default async function ProjectsSection() {
     return (
-        <section id="projects" className="pt-44">
-            <h2 className="text-3xl pb-3 m-2">Projects</h2>
+        <section id="projects" className="pt-25">
+            <h2 className="text-4xl pb-3 m-2">Projects</h2>
             <ul className="flex flex-wrap gap-14">
 
                 {projects.map((project) => (
-                    <li key={project.id} className="flex flex-col rounded-md shadow-md max-sm:p-2 max-sm:w-[100%] max-md:w-[80%] md:w-[45%] sm:p-3 ">
+                    <li key={project.id} className="flex flex-col rounded-md shadow-md max-sm:p-2 max-sm:w-[100%] max-md:w-[80%] md:w-[45%] sm:p-3 dark:bg-[#141414]">
                         <figure className="">
                         <div className="relative aspect-[9/11] xs:aspect-video">
                             <Image className="hidden xs:block object-contain" fill alt={project.image_alt.medium_screen} src={project.images.medium_screen} />
@@ -25,7 +25,7 @@ export default async function ProjectsSection() {
                         </figcaption>
 
                         </figure>
-                        <div className="flex justify-between mt-auto">
+                        <div className="flex justify-between mt-auto pt-3">
                             <Link href={project.github_link} target="_blank" rel="noopener noreferrer" className="w-8"> <GithubIcon /></Link>
                             <Link href={project.website_link} target="_blank" rel="noopener noreferrer" className="p-1 rounded-sm w-8"><NewWindowIcon /></Link>
                         </div>

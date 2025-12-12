@@ -8,9 +8,7 @@ export const metadata: Metadata = {
     title: "Fred's Portfolio",
 };
 
-export const viewport: Viewport = {
-    colorScheme: "light",
-};
+
 
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (

@@ -20,15 +20,14 @@ export default function Header() {
 
 
     return (
-        <header className="px-10 py-4 flex items-center fixed top-0 w-full bg-[#F9F9F9] sm:opacity-95 z-1">
+        <header className="dark:bg-[#141414] bg-gray-100 px-10 py-4 flex items-center fixed top-0 w-full opacity-95 z-1">
             <a href="http://fredhhowden.com/">Fred Howden</a>
             <nav className="flex items-center sm:ml-auto">
-                <ul className={`flex max-sm:bg-gray-100 ${isHamburgerOpen ? "max-sm:translate-y-0" : "max-sm:-translate-y-full"} max-sm:fixed max-sm:inset-0 max-sm:transition-all max-sm:duration-500 max-ms:ease-in-out max-sm:flex-col max-sm:pt-16 max-sm:text-3xl sm:gap-4`}>
-                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#home">Home</Link></li>
-                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#aboutMe">About Me</Link></li>
-                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#projects">Projects</Link></li>
-                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="#techIWorkWith">Tech</Link></li>
-                    {/* <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:px-10 max-sm:active:border-2 max-sm:active:border-dotted`} href="">CV</Link></li> */}
+                <ul className={`flex px-10 gap-5 max-sm:bg-gray-100 dark:max-sm:bg-[#141414] ${isHamburgerOpen ? "max-sm:translate-y-0" : "max-sm:-translate-y-full"} max-sm:fixed max-sm:inset-0 max-sm:transition-all max-sm:duration-500 max-ms:ease-in-out max-sm:flex-col max-sm:pt-16 max-sm:text-3xl sm:gap-4`}>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:active:border-2 max-sm:active:border-dotted`} href="#home">Home</Link></li>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:active:border-2 max-sm:active:border-dotted`} href="#aboutMe">About Me</Link></li>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:active:border-2 max-sm:active:border-dotted`} href="#projects">Projects</Link></li>
+                    <li><Link onClick={toggleMenu} className={`max-sm:block max-sm:active:border-2 max-sm:active:border-dotted`} href="#techIWorkWith">Tech</Link></li>
                 </ul>
             </nav>
             <HamburgerButton
