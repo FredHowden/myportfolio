@@ -30,7 +30,7 @@ export default function HeroSection() {
             </div>
 
             {/* <div className="flex items-center justify-center"> */}
-                <img className="w-70 sm:w-64 mt-10 rounded-2xl" src="/img/hero_image3.jpg" alt="Image of Fred" />
+                <img className="w-70 sm:w-64 mt-10 rounded-2xl" src="/img/hero_image4.jpg" alt="Image of Fred" />
             {/* </div> */}
 
         </section>
